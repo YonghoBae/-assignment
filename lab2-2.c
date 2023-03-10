@@ -5,6 +5,7 @@ int i;//int형 변수 i 선언
 int *ptr;//int형 포인터변수 ptr 선언
 int **dptr;//int형 이중포인터변수 dptr 선언
 i = 1234;//int형 변수 i에 1234 대입
+printf("[----- [Yongho Bae] [2020039008] -----]");
 printf("[checking values before ptr = &i] \n");
 printf("value of i == %d\n", i);
 printf("address of i == %p\n", &i);
@@ -40,3 +41,4 @@ printf("value of *ptr == %d\n", *ptr);
 printf("value of **dptr == %d\n", **dptr);
 return 0;
 }
+
